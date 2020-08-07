@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+main {
+  
+  display: grid;
+  grid-template-columns: 10%80%10%;
+}
+
+.left {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: lightcoral;
+}
+
+.main {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: lightslategray;
+}
+
+.right {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: orange;
+}
+
+footer {
+  margin: 5px;
+  background-color: palevioletred;
+}
+
+header {
+  margin: 5px;
+  background-color: paleturquoise;
+}
